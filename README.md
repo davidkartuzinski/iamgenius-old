@@ -6,7 +6,7 @@ I have had to learn how to do various functions in this app. The following peopl
 
 1. Creating a multilanguage app in Next.js 13, using the new App directory and using .js (as opposed to .ts).
 
-- [Adriano Raiano](https://github.com/adrai) and [Jan Mühlemann](https://github.com/jamuhl) in their excellent tutorial on [how to translate a Next.js app](https://locize.com/blog/next-13-app-dir-i18n/).
+- [Adriano Raiano](https://github.com/adrai) and [Jan Mühlemann](https://github.com/jamuhl) in their excellent tutorial on [how to translate a Next.js app](https://locize.com/blog/next-13-app-dir-i18n/). And a fully functioning repo [GitHub](https://github.com/i18next/next-13-app-dir-i18next-example/tree/main) The [i18next docs](https://www.i18next.com/) are really helpful as well.
 
 2. How to properly import SVG images and some options to the excellent next/images import.
 
