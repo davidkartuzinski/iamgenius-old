@@ -1,0 +1,4 @@
+.content {
+  grid-area: content;
+  padding: 2rem 2rem 2rem 1rem;
+}

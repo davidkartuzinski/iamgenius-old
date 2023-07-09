@@ -1,11 +1,12 @@
 import Link from 'next/link';
 import { Trans } from 'react-i18next/TransWithoutContext';
 import { languages } from '../../../i18n/settings';
-import styles from './footer.module.css';
+import styles from './sidebar.module.css';
 
-export const FooterBase = ({ t, lng }) => {
+export const Sidebar = ({ t, lng }) => {
   return (
-    <footer className={styles.footer}>
+    <aside className={styles.sidebar}>
+      <h2>Sidebar</h2>
       <Trans i18nKey='languageSwitcher' t={t}>
         Switch from <strong>{{ lng }}</strong> to:{' '}
       </Trans>
@@ -19,6 +20,6 @@ export const FooterBase = ({ t, lng }) => {
             </span>
           );
         })}
-    </footer>
+    </aside>
   );
 };

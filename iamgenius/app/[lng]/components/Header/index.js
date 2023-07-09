@@ -3,11 +3,12 @@ import { Trans } from 'react-i18next/TransWithoutContext';
 import { useTranslation } from '../../../i18n';
 import { languages } from '../../../i18n/settings';
 import Logo from '../Logo';
+import styles from './header.module.css';
 
 export const Header = async ({ lng }) => {
   const { t } = await useTranslation(lng, 'footer');
   return (
-    <header style={{ marginBottom: 50 }}>
+    <header className={styles.header}>
       <Link href={`/${lng}`}>
         <Logo />
       </Link>
