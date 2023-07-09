@@ -11,3 +11,5 @@ I have had to learn how to do various functions in this app. The following peopl
 2. How to properly import SVG images and some options to the excellent next/images import.
 
 - [Joseph Mawa](https://github.com/nibble0101) wrote this [primer on next/images with SVGs on LogRocket](https://blog.logrocket.com/import-svgs-next-js-apps/).
+
+3. A more modern CSS reset by [Josh Comeau](https://twitter.com/joshwcomeau) who wrote and shared his [modern CSS Reset](https://www.joshwcomeau.com/css/custom-css-reset/).
