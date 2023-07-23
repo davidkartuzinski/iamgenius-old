@@ -18,11 +18,36 @@
   }
 }
 
-.intro,
+.intro {
+  display: block;
+  padding: 0.5rem 1rem;
+  margin: 0 auto;
+  font-family: var(--font-source_sans_3), -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+    Helvetica Neue, sans-serif;
+}
+
 .traits {
   display: block;
-  padding: 1.5rem 1rem;
+  padding: 0.5rem 1rem;
   margin: 0 auto;
+  font-family: var(--font-frank_ruhl_libre);
+}
+
+.traits h2 {
+  font-family: var(--font-tempo_heavy);
+  font-size: 28px;
+  line-height: 32px;
+  padding-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.traits h3 {
+  font-family: var(--font-frank_ruhl_libre), -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+    Helvetica Neue, sans-serif;
+  line-height: 1.4;
+  font-size: 20px;
 }
 
 .intro h1 {
@@ -35,9 +60,11 @@
 
 .traits blockquote {
   font-weight: bold;
-  margin-left: -1.2rem;
-  font-size: 27px;
-  padding-bottom: 0.5rem;
+  font-size: 28px;
+  line-height: 32px;
+  margin-top: 0.5rem;
+  padding-bottom: 0.8rem;
+  font-family: var(--font-tempo_standard);
 }
 
 @media (min-width: 768px) {
@@ -67,5 +94,18 @@
     border-right: 1.5px solid black;
     border-left: 1.5px solid black;
     padding: 0 68px;
+  }
+
+  .traits h2 {
+    line-height: 1.6;
+    font-size: 38px;
+  }
+
+  .traits blockquote {
+    margin-left: -1.4rem;
+    font-size: 34px;
+    line-height: 38px;
+    margin-top: 1rem;
+    padding-bottom: 0.8rem;
   }
 }
