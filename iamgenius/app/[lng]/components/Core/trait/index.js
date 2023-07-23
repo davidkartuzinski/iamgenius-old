@@ -1,11 +1,13 @@
+import styles from './trait.module.css';
+
 function Trait({ number, name, content }) {
   return (
-    <>
-      <h3>
-        {number}: {name}.
+    <div className={styles.trait}>
+      <h3 className={styles.h3}>
+        {number}. {name}.
       </h3>
-      <p>{content}</p>
-    </>
+      <span>"{content}"</span>
+    </div>
   );
 }
 
