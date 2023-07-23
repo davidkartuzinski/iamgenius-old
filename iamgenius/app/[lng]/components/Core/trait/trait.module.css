@@ -1,0 +1,21 @@
+.h3 {
+  display: inline;
+  padding-right: 0.5rem;
+  padding-bottom: 0;
+  margin-left: 0;
+}
+
+.trait {
+  padding-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .trait {
+    max-width: 760px;
+    border-right: 1.5px solid black;
+    border-left: 1.5px solid black;
+    padding: 0 68px;
+    display: block;
+    margin: 0 auto;
+  }
+}

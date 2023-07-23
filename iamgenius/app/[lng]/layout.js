@@ -4,7 +4,7 @@ import '../styles/global.css';
 import { Content } from './components/Content';
 import { Footer } from './components/Footer';
 import { Header } from './components/Header';
-import { Sidebar } from './components/Sidebar';
+
 import styles from './layout.module.css';
 export async function generateStaticParams() {
   return languages.map((lng) => ({ lng }));
@@ -17,9 +17,7 @@ export default function RootLayout({ children, params: { lng } }) {
       <body>
         <div className={styles.wrapper}>
           <Header lng={lng} />
-          <Sidebar lng={lng} />
           <Content lng={lng}>{children}</Content>
-
           <Footer lng={lng} />
         </div>
       </body>
