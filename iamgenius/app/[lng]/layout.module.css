@@ -35,7 +35,6 @@
 
 .traits blockquote {
   font-weight: bold;
-  margin-left: -1.2rem;
   font-size: 27px;
   padding-bottom: 0.5rem;
 }
@@ -67,5 +66,9 @@
     border-right: 1.5px solid black;
     border-left: 1.5px solid black;
     padding: 0 68px;
+  }
+
+  .traits blockquote {
+    margin-left: -1.2rem;
   }
 }
