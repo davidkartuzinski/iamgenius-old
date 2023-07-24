@@ -25,6 +25,7 @@ export default function RootLayout({ children, params: { lng } }) {
       className={`${source_sans_3.variable} ${frank_ruhl_libre.variable} ${work_sans.variable} ${tempo_standard.variable} ${tempo_heavy.variable}`}
     >
       <head />
+
       <body>
         <div className={styles.wrapper}>
           <Header lng={lng} />
